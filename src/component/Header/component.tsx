@@ -2,8 +2,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearch } from '@fortawesome/free-solid-svg-icons';
 import Image from 'next/image';
 import { Dispatch, SetStateAction } from 'react';
-import { City } from '@/pages/model';
-import { TabIndex } from '@/pages/model/TabIndex';
+import { City } from '@/model';
+import { TabIndex } from '@/model/TabIndex';
 
 interface HeaderProps {
   filterValue: City;

@@ -1,4 +1,4 @@
-import { Hotel } from '@/pages/model/Hotel';
+import { Hotel } from '@/model/Hotel';
 import React from 'react';
 import Image from 'next/image';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';

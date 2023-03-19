@@ -1,8 +1,8 @@
 import Head from 'next/head';
 import { useEffect, useState } from 'react';
 import { Card, Header, Modal } from './component';
-import { City, Hotel } from './model';
-import { TabIndex } from './model/TabIndex';
+import { City, Hotel } from '../model';
+import { TabIndex } from '../model/TabIndex';
 
 export default function Home() {
   const [stays, setStays] = useState<Hotel[]>([]);

@@ -1,5 +1,5 @@
 import { classNames } from '@/helpers/common';
-import { City } from '@/pages/model';
+import { City } from '@/model';
 import { faLocationDot, faSearch } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Dialog, Tab, Transition } from '@headlessui/react';
